@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Quattrocento';
+    src: local('Quattrocento'), url('font/quattrocento.woff2') format('font/woff2'), url('font/quattrocento.woff') format('font/woff'), url('font/quattrocento.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 1080px;
+    width: 1920px;
+}
+#poster {
+    width: 1100px;
+    max-width: 1100px;
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-right: 50px;
+}
+#poster-container{
+    top: 10%;
+    width: 1250px;
+
+    max-width: 1300px;
+    float:left;
+    shape-outside:padding-box;
+    text-align: center;
+}
+#caption {
+    font-style: italic;
+    font-size: 14pt;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+#text {
+    /* position: absolute; */
+    /* left: 1300px;
+    width: 650px;
+    height: 920px; */
+    /* text-align: center; */
+    padding-left: 80px;
+    margin-right: -55px;
+    padding-top: 30px;
+    font-size: 18pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-weight: 100; */
+    /* font-stretch: expanded; */
+}
+
+#buttons {
+    
+}
+.lang-button {
+    display: inline-block;
+    align-self: center;
+    width: 100px;
+    height: 60px;
+    margin-right: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+#kz  {
+    background:url('icons/kazakhstan.png')  no-repeat center;
+    background-size: 100px;
+    margin-left: 55px;
+
+}
+
+#ru  {
+    background:url('icons/russia.png')  no-repeat center;
+    background-size: 100px;
+}
+
+#en  {
+    background:url('icons/united-kingdom.png')  no-repeat center;
+    background-size: 100px;
+}

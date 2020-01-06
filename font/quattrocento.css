@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Quattrocento';
+    src: local('Quattrocento'), url('quattrocento.woff2') format('woff2'), url('quattrocento.woff') format('woff'), url('quattrocento.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Quattrocento';
+    src: local('Quattrocento Bold'), local('Quattrocento-Bold'), url('quattrocentobold.woff2') format('woff2'), url('quattrocentobold.woff') format('woff'), url('quattrocentobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
