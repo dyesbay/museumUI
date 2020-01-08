@@ -1,2 +1,0 @@
-import "jquery.min.js"
-
