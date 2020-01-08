@@ -12,17 +12,17 @@ body {
 #poster {
     width: 1100px;
     max-width: 1100px;
-    margin-top: 40px;
-    margin-left: 35px;
-    margin-right: 50px;
+    margin-top: 20px;
 }
 #poster-container{
     position: absolute;
     left: 40px;
-    width: 1250px;
-
+    top:350px;
+    width: 1150px;
     max-width: 1300px;
     text-align: center;
+    border: 3px solid #0277bd;
+    border-radius: 5px;
 }
 #caption {
     font-style: italic;
@@ -54,7 +54,7 @@ body {
     position: absolute;
     background-color: green;
     left: 300px;
-    top: 700px;
+    top: 140px;
     height: 150px;
     width: 700px;
     color: white;
@@ -66,7 +66,7 @@ body {
     position: absolute;
     background-color: red;
     left: 300px;
-    top: 700px;
+    top: 140px;
     height: 150px;
     width: 700px;
     color: white;
@@ -76,8 +76,8 @@ body {
 
 #buttons {
     position: absolute;
-    top: 900px;
-    left: 330px;
+    top: 20px;
+    left: 10px;
 }
 .lang-button {
     display: inline-block;
@@ -105,13 +105,4 @@ body {
 #en  {
     background:url('../icons/united-kingdom.png')  no-repeat center;
     background-size: 100px;
-}
-::-webkit-scrollbar {
-  -webkit-appearance: none;
-  width: 7px;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background-color: rgba(0, 0, 0, .5);
-  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
